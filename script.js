@@ -15,8 +15,7 @@ class Movie{
     }
 }
 var result=new Movie("Casino Royale","Eon Productions","R")
-// console.log(result.title)
-// console.log(result.studio)
+
 console.log(result.PG)
 result.PG="PG13"
 console.log(result.PG)
@@ -31,10 +30,10 @@ class Circle{
     this.radius=radius
     this.color=color
     }
-    get radiuss(){
+    get radiues(){
         return this.radius
     }
-    set radiuss(radius)
+    set radiues(radius)
     {
         this.radius=radius
     }
@@ -76,7 +75,7 @@ class Person{
         this.state=state
     }
 }
-var details=new Person("Yoga",21,"Female","MCA","Tamilnadu")
+var details=new Person("BHARANI",22,"male","MCA","Tamilnadu")
 console.log(details.name)
 console.log(details.age)
 console.log(details.gender)
